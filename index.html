@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set a page title -->
+  <title>Weather</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/styles/fonts/fonts.css" />
+</head>
+
+<body class="pa5 bg-washed-yellow">
+  <div class="pt6 tc">
+    <img src="sun.png" alt="sun">
+  </div>
+
+
+  <div class="pt4 tc">
+    <a href="/days.html" class="px f-headline b
+   link black navy">4ºC</a>
+    <!-- <a href="/days.html" class="f2 b gray navy link black">/ 60ºF</a> -->
+    <details>
+      <summary></summary>
+
+      <div class="grid1 justify-center px navy f4">
+        <div>
+          <img src="sun.png" alt="sun">
+          <p>Yesterday</p>
+          <p>3ºC-8ºC</p>
+        </div>
+
+        <div>
+          <img src="sun.png" alt="sun">
+          <p class="red ">Today</p>
+          <p class="red ">6ºC-9ºC</p>
+        </div>
+
+        <div>
+          <img src="sun.png" alt="sun">
+          <p>Tomorrow</p>
+          <p>-1ºC-0ºC</p>
+        </div>
+
+        <div>
+          <img src="sun.png" alt="sun">
+          <p>After Tmr</p>
+          <p>9ºC-11ºC</p>
+        </div>
+      </div>
+
+
+    </details>
+    <h2 class="pt4 navy px">Boston, MA</h2>
+  </div>
+
+
+  <div class="tc">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      input[type=text] {
+        width: 120px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('search.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 10px 20px 10px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      input[type=text]:focus {
+        width: 10%;
+      }
+    </style>
+    <form>
+      <input type="text" name="search" class="px" placeholder="Ur Zip..">
+    </form>
+  </div>
+
+
+
+
+</body>
+<!-- Site JavaScript -->
+<script src="/javascript/toggleClass.js " charset="utf-8 "></script>
+<script src="/javascript/main.js " charset="utf-8 "></script>
+</body>
+
+</html>

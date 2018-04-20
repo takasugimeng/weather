@@ -1,0 +1,21 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+.navy {
+  color: #001b44;
+}
+.bg-washed-yellow {
+  background-color: #fffceb;
+}
+
+.px {
+  font-family: Pixellari;
+}
+@media (min-width: 600px) {
+  .grid1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 5px;
+  }
+}
