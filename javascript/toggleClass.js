@@ -12,14 +12,14 @@
 // like this:
 // toggleClass('.myDiv', 'active')
 
-function toggleClass(selector, className) {
+function toggleClass (selector, className) {
   // Find all of the elements
-  const elements = document.querySelectorAll(selector);
+  const elements = document.querySelectorAll(selector)
 
   // Attach an event listener to each element
-  elements.forEach(function(el) {
-    el.addEventListener('click', function() {
-      this.classList.toggle(className);
-    });
-  });
+  elements.forEach(function (el) {
+    el.addEventListener('click', function () {
+      this.classList.toggle(className)
+    })
+  })
 }

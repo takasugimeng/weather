@@ -8,4 +8,4 @@
 // 'class-to-toggle' with your own data.
 // Both parameters must be in quotes.
 
-// toggleClass('.myClass', 'class-to-toggle');
+// toggleClass('.myClass', 'class-to-toggle')
