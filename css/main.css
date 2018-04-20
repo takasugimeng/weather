@@ -13,6 +13,11 @@
   font-family: Pixellari;
 }
 
+@font-face {
+  font-family: Pixellari;
+  src: url(fonts/Pixellari.ttf);
+}
+
 @media (min-width: 600px) {
   .grid1 {
     display: grid;
